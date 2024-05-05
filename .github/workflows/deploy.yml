@@ -3,10 +3,7 @@ name: Deploy to EC2
 on:
   push:
     branches:
-      - develop
-  pull_request:
-    branches:
-      - develop
+      - gayeong_park
 jobs:
 
   build:
