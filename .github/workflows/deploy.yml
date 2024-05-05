@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - gayeong_park
+  pull_request:
+    branches:
+      - gayeong_park
 jobs:
 
   build:
